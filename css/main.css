@@ -47,3 +47,48 @@ header h1{
   font-size: 56px;
   margin-top: 40px;
 }
+
+#section-home{
+  height: calc(100vh - 200px);
+}
+
+#section-services{
+  background: #F6F6F6;
+  height: 100vh;
+  padding-top: 80px;
+}
+
+#section-services h1{
+  text-align: center;
+}
+
+.cards-services{
+  margin-top: 50px;
+}
+
+.card{
+  border: none !important;
+  border-radius: 4px;
+  box-shadow: 0 4px 20px -5px rgba(0, 0, 0, 0.4);
+  transition: 0.25s;
+}
+
+.card:hover{
+  background: #00d2b5;
+  color: white;
+  transition: 0.25s;
+}
+
+.card:hover .ic-bg{
+  background: white;
+  color: #00d2b5;
+  transition: 0.25s;
+}
+
+.ic-bg{
+  background: #00d2b5;
+  padding: 10px;
+  border-radius: 50%;
+  margin-bottom: 16px;
+  color: white;
+}
